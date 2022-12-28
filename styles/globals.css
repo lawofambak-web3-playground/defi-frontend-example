@@ -11,6 +11,44 @@ body {
   background-image: linear-gradient(to bottom right, #0f0c29, #302b63, #24243e);
 }
 
+.nav {
+  color: white;
+  background-color: rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 8rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.site-name {
+  color: inherit;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.site-name:hover {
+  color: rgb(209, 203, 203);
+}
+
+.nav-page {
+  color: inherit;
+  text-decoration: none;
+  color: rgb(209, 203, 203);
+}
+
+.nav-page:hover {
+  color: white;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
