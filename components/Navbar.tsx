@@ -15,7 +15,7 @@ export default function Navbar() {
                     <Link className='nav-page' href='/about'>About</Link>
                 </li>
                 <li>
-                    <button>Launch App</button>
+                    <button className='nav-button'>Launch App</button>
                 </li>
             </ul>
         </nav>

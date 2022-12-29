@@ -27,6 +27,7 @@ body {
   list-style: none;
   display: flex;
   gap: 1.5rem;
+  align-items: center;
 }
 
 .site-name {
@@ -47,6 +48,60 @@ body {
 
 .nav-page:hover {
   color: white;
+}
+
+.nav-button {
+  color: #1d1160;
+  background-color: #E6E6FA;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+}
+
+.nav-button:hover {
+  background-color: #cccced;
+}
+
+.site-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.site-description h1 {
+  font-size: 60px;
+}
+
+.site-description h3 {
+  font-size: 22px;
+}
+
+.carousel,
+.carousel-container,
+.carousel-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  background-color: red;
+  height: 20rem;
+}
+
+.carousel-container {
+  background-color: blue;
+  width: 75%;
+  height: 10rem;
+}
+
+.carousel-container ul {
+  flex-direction: row;
+  gap: 10rem;
 }
 
 /* width */
