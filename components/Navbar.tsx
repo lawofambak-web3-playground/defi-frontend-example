@@ -12,6 +12,9 @@ export default function Navbar() {
                     <Link className='nav-page' href='/community'>Community</Link>
                 </li>
                 <li>
+                    <Link className='nav-page' href='/governance'>Governance</Link>
+                </li>
+                <li>
                     <Link className='nav-page' href='/about'>About</Link>
                 </li>
                 <li>

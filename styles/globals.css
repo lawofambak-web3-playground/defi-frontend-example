@@ -82,26 +82,72 @@ body {
 
 .carousel,
 .carousel-container,
-.carousel-container ul {
+.carousel-container ul,
+.protocol-info,
+.protocol-info-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .carousel {
-  background-color: red;
   height: 20rem;
 }
 
 .carousel-container {
   background-color: blue;
   width: 75%;
-  height: 10rem;
+  height: 75%;
 }
 
 .carousel-container ul {
   flex-direction: row;
   gap: 10rem;
+}
+
+.protocol-info {
+  margin-top: 10rem;
+  height: 40rem;
+}
+
+.protocol-info-container {
+  width: 75%;
+  height: 80%;
+}
+
+.client-testimonials {
+  height: 100%;
+  width: 50%;
+  margin-right: 15px;
+}
+
+.client-testimonial {
+  background-color: #372697;
+  padding: 20px;
+  border-style: double;
+  border-radius: 35px;
+  border-color: white;
+  margin-bottom: 2rem;
+}
+
+.protocol-metrics {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  margin-left: 15px;
+}
+
+.protocol-metric-number {
+  background-image: linear-gradient(to right, #997be1, #e7afd8);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 25px;
 }
 
 /* width */
@@ -111,7 +157,7 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgb(235, 229, 229);
+  background: rgb(85, 74, 74);
   border-radius: 10px; 
 }
  
