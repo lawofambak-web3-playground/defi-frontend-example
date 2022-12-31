@@ -1,10 +1,10 @@
 import ClientTestimonials from './ClientTestimonials';
 import ProtocolMetrics from './ProtocolMetrics';
 
-export default function ProtocolInfo() {
+export default function SiteInfo() {
     return (
-        <section className='protocol-info'>
-            <div className='protocol-info-container'>
+        <section className='site-info'>
+            <div className='site-info-container'>
                 <ClientTestimonials />
                 <ProtocolMetrics />
             </div>

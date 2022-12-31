@@ -8,7 +8,7 @@ body {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
-  background-image: linear-gradient(to bottom right, #0f0c29, #302b63, #24243e);
+  background-image: linear-gradient(to bottom right, #0f0c29, #3b348f, #24243e);
 }
 
 .nav {
@@ -30,13 +30,13 @@ body {
   align-items: center;
 }
 
-.site-name {
+.nav-site-name {
   color: inherit;
   text-decoration: none;
   font-size: 26px;
 }
 
-.site-name:hover {
+.nav-site-name:hover {
   color: rgb(209, 203, 203);
 }
 
@@ -73,6 +73,10 @@ body {
 }
 
 .site-description h1 {
+  background-image: linear-gradient(#a4b3f3, #a777d7);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
   font-size: 60px;
 }
 
@@ -83,14 +87,17 @@ body {
 .carousel,
 .carousel-container,
 .carousel-container ul,
-.protocol-info,
-.protocol-info-container {
+.site-info,
+.site-info-container,
+.contact-section,
+.contact-section-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .carousel {
+  background-color: red;
   height: 20rem;
 }
 
@@ -105,12 +112,14 @@ body {
   gap: 10rem;
 }
 
-.protocol-info {
-  margin-top: 10rem;
+.site-info,
+.contact-section {
+  margin-top: 5rem;
   height: 40rem;
 }
 
-.protocol-info-container {
+.site-info-container,
+.contact-section-container {
   width: 75%;
   height: 80%;
 }
@@ -121,7 +130,8 @@ body {
   margin-right: 15px;
 }
 
-.client-testimonial {
+.client-testimonial,
+.ex-site-info-div {
   background-color: #372697;
   padding: 20px;
   border-style: double;
@@ -150,6 +160,56 @@ body {
   margin-top: 25px;
 }
 
+.contact-form {
+  height: 100%;
+  width: 60%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.extra-site-info {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ex-site-info-div {
+  padding: 10px;
+  margin-bottom: 0;
+  width: 90%;
+}
+
+.ex-site-info-div:hover {
+  background-color: #27187f;
+}
+
+.contact-form-container {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80%;
+  width: 80%;
+}
+
+.contact-name,
+.contact-email,
+.contact-reason {
+  margin-bottom: 25px;
+  width: 75%;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.contact-reason {
+  
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -163,11 +223,11 @@ body {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(178, 168, 168);
+  background: rgb(130, 125, 125);
   border-radius: 10px; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(205, 193, 193); 
+  background: rgb(160, 147, 147); 
 }
