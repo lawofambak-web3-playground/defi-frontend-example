@@ -112,9 +112,12 @@ body {
   gap: 10rem;
 }
 
+.site-info {
+  margin-top: 3rem;
+}
+
 .site-info,
 .contact-section {
-  margin-top: 5rem;
   height: 40rem;
 }
 
@@ -163,7 +166,6 @@ body {
 .contact-form {
   height: 100%;
   width: 60%;
-  margin-left: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -189,25 +191,56 @@ body {
 }
 
 .contact-form-container {
-  background-color: yellow;
+  background-color: whitesmoke;
+  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80%;
-  width: 80%;
+  height: 75%;
+  width: 75%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 30px;
+  border-style: double;
 }
 
 .contact-name,
 .contact-email,
 .contact-reason {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  font-size: 20px;
   margin-bottom: 25px;
-  width: 75%;
-  padding: 15px;
-  font-size: 18px;
 }
 
-.contact-reason {
-  
+.contact-name-input,
+.contact-email-input,
+.contact-reason-input {
+  background-color: rgb(217, 212, 212);
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.contact-reason-input {
+  font-family: inherit;
+  resize: none;
+}
+
+.contact-submit {
+  background-color: rgb(195, 190, 190);
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 60%;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-submit:hover {
+  background-color: rgb(180, 177, 177);
 }
 
 /* width */
