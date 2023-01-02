@@ -86,7 +86,6 @@ body {
 
 .carousel,
 .carousel-container,
-.carousel-container ul,
 .site-info,
 .site-info-container,
 .contact-section,
@@ -97,23 +96,35 @@ body {
 }
 
 .carousel {
-  background-color: red;
   height: 20rem;
 }
 
 .carousel-container {
-  background-color: blue;
+  background-image: linear-gradient(#4e54c8, #8f94fb);
   width: 75%;
-  height: 75%;
+  height: 55%;
+  overflow: hidden;
+  border: #372697;
+  border-style: double;
+  border-radius: 5rem;
 }
 
-.carousel-container ul {
-  flex-direction: row;
-  gap: 10rem;
+.carousel-container span {
+  font-size: 2.5vw;
+  transform: translateX(100%);
+  animation: scrolling 15s linear infinite;
+  white-space: nowrap;
+  padding-left: 32%;
+}
+
+@keyframes scrolling {
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 .site-info {
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .site-info,

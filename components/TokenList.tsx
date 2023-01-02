@@ -4,9 +4,9 @@ export default function TokenList() {
     return (
         <section className='carousel'>
             <div className='carousel-container'>
-                <ul>
-                    {tokens.map(token => <li key={token}>{token}</li>)}
-                </ul>
+                <span>
+                ETH • MKR • ZRX • USDC • DAI • LINK
+                </span>
             </div>
         </section>
     )
